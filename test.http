@@ -1,0 +1,14 @@
+GET http://localhost:5000/
+
+###
+GET  http://localhost:5000/count-requests
+Content-Type: application/json
+
+###
+
+POST   http://localhost:5000/reset-counter
+Content-Type: application/json
+
+{
+    "requests made": 0
+}
